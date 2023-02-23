@@ -137,6 +137,12 @@
     "/52hrtt/:area?/:type?": [
         "nczitzk"
     ],
+    "/6v123/latestMovies": [
+        "tc9011"
+    ],
+    "/6v123/latestTVSeries": [
+        "tc9011"
+    ],
     "/78dm/eval_list/:path+": [
         "nczitzk"
     ],
@@ -2372,6 +2378,10 @@
     "/inoreader/html_clip/:user/:tag/:num?": [
         "BeautyyuYanli"
     ],
+    "/instagram/:category/:key": [
+        "oppilate",
+        "DIYgod"
+    ],
     "/iqiyi/album/:id": [
         "TonyRL"
     ],
@@ -4522,6 +4532,9 @@
     "/ucas/job/:type?": [
         "Fatpandac"
     ],
+    "/uchicago/journals/current/:journal": [
+        "TonyRL"
+    ],
     "/udn/global/:category?": [
         "nczitzk"
     ],
@@ -6294,7 +6307,6 @@
     "/us/supremecourt/argument_audio/:year?": [],
     "/mitbbs/:caty?": [],
     "/jiazhen108": [],
-    "/instagram/:category/:key": [],
     "/uisdc/talk/:sort?": [],
     "/uisdc/hangye/:caty?": [],
     "/uisdc/news": [],

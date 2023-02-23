@@ -787,6 +787,75 @@
       }
     ]
   },
+  "hao6v.cc": {
+    "_name": "6v电影",
+    ".": [
+      {
+        "title": "最新电影",
+        "docs": "https://docs.rsshub.app/multimedia.html#_6v-dian-ying",
+        "source": [
+          "/",
+          "/gvod/zx.html"
+        ],
+        "target": "/6v123/latestMovies"
+      },
+      {
+        "title": "最新电视剧",
+        "docs": "https://docs.rsshub.app/multimedia.html#_6v-dian-ying",
+        "source": [
+          "/",
+          "/gvod/dsj.html"
+        ],
+        "target": "/6v123/latestTVSeries"
+      }
+    ]
+  },
+  "hao6v.tv": {
+    "_name": "6v电影",
+    ".": [
+      {
+        "title": "最新电影",
+        "docs": "https://docs.rsshub.app/multimedia.html#_6v-dian-ying",
+        "source": [
+          "/",
+          "/gvod/zx.html"
+        ],
+        "target": "/6v123/latestMovies"
+      },
+      {
+        "title": "最新电视剧",
+        "docs": "https://docs.rsshub.app/multimedia.html#_6v-dian-ying",
+        "source": [
+          "/",
+          "/gvod/dsj.html"
+        ],
+        "target": "/6v123/latestTVSeries"
+      }
+    ]
+  },
+  "hao6v.com": {
+    "_name": "6v电影",
+    ".": [
+      {
+        "title": "最新电影",
+        "docs": "https://docs.rsshub.app/multimedia.html#_6v-dian-ying",
+        "source": [
+          "/",
+          "/gvod/zx.html"
+        ],
+        "target": "/6v123/latestMovies"
+      },
+      {
+        "title": "最新电视剧",
+        "docs": "https://docs.rsshub.app/multimedia.html#_6v-dian-ying",
+        "source": [
+          "/",
+          "/gvod/dsj.html"
+        ],
+        "target": "/6v123/latestTVSeries"
+      }
+    ]
+  },
   "78dm.net": {
     "_name": "78动漫",
     ".": [
@@ -9475,6 +9544,27 @@
         "source": [
           "/stream/user/:user/tag/:tag/*"
         ]
+      }
+    ]
+  },
+  "instagram.com": {
+    "_name": "Instagram",
+    "www": [
+      {
+        "title": "用户",
+        "docs": "https://docs.rsshub.app/social-media.html#instagram",
+        "source": [
+          "/:id"
+        ],
+        "target": "/instagram/user/:id"
+      },
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/social-media.html#instagram",
+        "source": [
+          "/explore/tags/:key"
+        ],
+        "target": "/instagram/tags/:key"
       }
     ]
   },
@@ -18820,6 +18910,20 @@
       }
     ]
   },
+  "journals.uchicago.edu": {
+    "_name": "The University of Chicago Press: Journals",
+    ".": [
+      {
+        "title": "Current Issue",
+        "docs": "https://docs.rsshub.app/journal.html#the-university-of-chicago-press-journals",
+        "source": [
+          "/toc/:journal/current",
+          "/journal/:journal"
+        ],
+        "target": "/uchicago/journals/current/:journal"
+      }
+    ]
+  },
   "udn.com": {
     "_name": "聯合新聞網",
     ".": [
@@ -22221,16 +22325,6 @@
         "title": "收藏夹",
         "docs": "https://docs.rsshub.app/new-media.html#matataki",
         "source": "/user/:uid/favlist/:fid"
-      }
-    ]
-  },
-  "instagram.com": {
-    "_name": "Instagram",
-    "www": [
-      {
-        "title": "用户",
-        "docs": "https://docs.rsshub.app/social-media.html#instagram",
-        "source": "/:id"
       }
     ]
   },
