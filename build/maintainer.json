@@ -257,6 +257,15 @@
     "/aiea/seminars/:period": [
         "zxx-457"
     ],
+    "/aijishu/blog/:name": [
+        "bigfei"
+    ],
+    "/aijishu/channel/:name": [
+        "bigfei"
+    ],
+    "/aijishu/u/:name": [
+        "bigfei"
+    ],
     "/airchina/announcement": [
         "LandonLi"
     ],
@@ -508,6 +517,9 @@
     "/bilibili/followings/video/:uid/:disableEmbed?": [
         "LogicJake"
     ],
+    "/bilibili/hot-search": [
+        "CaoMeiYouRen"
+    ],
     "/bilibili/link/news/:product": [
         "Qixingchen"
     ],
@@ -717,6 +729,9 @@
     "/c114/roll": [
         "nczitzk"
     ],
+    "/caai/:caty": [
+        "tudou027"
+    ],
     "/caareviews/book": [
         "Fatpandac"
     ],
@@ -780,8 +795,14 @@
     "/ccac/news/:type/:lang?": [
         "linbuxiao"
     ],
-    "/ccfcv/:channel/:category": [
+    "/ccf/ccfcv/:channel/:category": [
         "elxy"
+    ],
+    "/ccf/news/:category?": [
+        "nczitzk"
+    ],
+    "/ccf/tfbd/:caty/:id": [
+        "tudou027"
     ],
     "/ccreports/article": [
         "EsuRt",
@@ -3503,6 +3524,9 @@
     "/pianyuan/indexers/pianyuan/results/search/api": [
         "jerry1119"
     ],
+    "/picnob/user/:id": [
+        "TonyRL"
+    ],
     "/picuki/profile/:id/:functionalFlag?": [
         "hoilc",
         "Rongronggg9",
@@ -4574,6 +4598,9 @@
         "SettingDust",
         "Halcao"
     ],
+    "/urbandictionary/random": [
+        "TonyRL"
+    ],
     "/usenix/usenix-security-sympoium": [
         "ZeddYu"
     ],
@@ -5063,8 +5090,14 @@
         "xyqfer",
         "Fatpandac"
     ],
+    "/youtube/c/:id/:embed?": [
+        "TonyRL"
+    ],
     "/youtube/channel/:id/:embed?": [
         "DIYgod"
+    ],
+    "/youtube/charts/:category?/:country?/:embed?": [
+        "TonyRL"
     ],
     "/youtube/playlist/:id/:embed?": [
         "HenryQW"
@@ -6376,7 +6409,6 @@
     "/ustr/press-releases/:year?/:month?": [],
     "/vgn/:platform?": [],
     "/iea/:category?": [],
-    "/ccf/news/:category?": [],
     "/thebrain/:category?": [],
     "/treasury/press-releases/:category?/:title?": [],
     "/bandisoft/:id?/:lang?": [],
