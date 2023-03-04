@@ -59,6 +59,9 @@
     "/12306/zxdt/:id?": [
         "LogicJake"
     ],
+    "/0818tuan/:listId?": [
+        "TonyRL"
+    ],
     "/18comic/album/:id": [
         "nczitzk"
     ],
@@ -1172,6 +1175,9 @@
     "/diershoubing/news": [
         "wushijishan"
     ],
+    "/discord/channel/:channelID": [
+        "TonyRL"
+    ],
     "/disinfo/publications": [
         "nczitzk"
     ],
@@ -1783,6 +1789,13 @@
     ],
     "/gov/cnnic/:path+": [
         "nczitzk"
+    ],
+    "/gov/csrc/auditstatus/:apply_id": [
+        "hillerliao"
+    ],
+    "/gov/csrc/news/:suffix*": [
+        "chinobing",
+        "LogicJake"
     ],
     "/gov/customs/list/:gchannel?": [
         "Jeason0228",
@@ -3113,6 +3126,12 @@
     "/nbd/:id?": [
         "nczitzk"
     ],
+    "/nber/articles": [
+        "5upernova-heng"
+    ],
+    "/nber/news": [
+        "5upernova-heng"
+    ],
     "/ncepu/master/:type": [
         "nilleo"
     ],
@@ -3689,6 +3708,12 @@
     ],
     "/qbittorrent/news": [
         "TonyRL"
+    ],
+    "/qdaily/:type/:id": [
+        "WenhuWee",
+        "emdoe",
+        "SivaGao",
+        "HenryQW"
     ],
     "/qianzhan/analyst/column/:type?": [
         "moke8"
@@ -4698,6 +4723,12 @@
     "/uw/gix/news/:category": [
         "dykderrick"
     ],
+    "/v1tx": [
+        "TonyRL"
+    ],
+    "/v1tx/": [
+        "TonyRL"
+    ],
     "/verfghbw/press/:keyword?": [
         "quinn-dev"
     ],
@@ -4794,6 +4825,12 @@
     ],
     "/wechat/wxnmh/:id": [
         "laampui"
+    ],
+    "/weekendhk": [
+        "TonyRL"
+    ],
+    "/weekendhk/": [
+        "TonyRL"
     ],
     "/weibo/keyword/:keyword/:routeParams?": [
         "DIYgod"
@@ -4901,6 +4938,9 @@
     ],
     "/wsyu/news/:type?": [
         "Derekmini"
+    ],
+    "/wxkol/show/:id": [
+        "TonyRL"
     ],
     "/wyzxwk/article/:id?": [
         "nczitzk"
@@ -5042,6 +5082,9 @@
     ],
     "/yaohuo/": [
         "nczitzk"
+    ],
+    "/ycwb/:node": [
+        "TimWu007"
     ],
     "/yicai/author/:id?": [
         "nczitzk"
@@ -5333,7 +5376,6 @@
     "/disqus/posts/:forum": [],
     "/geektime/column/:cid": [],
     "/geektime/news": [],
-    "/qdaily/:type/:id": [],
     "/infzm/:id": [],
     "/dribbble/popular/:timeframe?": [],
     "/dribbble/user/:name": [],
@@ -5819,9 +5861,6 @@
     "/8btc/:authorid": [],
     "/8btc/news/flash": [],
     "/vuevideo/:userid": [],
-    "/csrc/news/:suffix?": [],
-    "/csrc/fashenwei": [],
-    "/csrc/auditstatus/:apply_id": [],
     "/lwn/alerts/:distributor": [],
     "/lol/newsindex/:type": [],
     "/lolapp/recommend": [],
