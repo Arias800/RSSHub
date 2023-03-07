@@ -889,6 +889,16 @@
         source:[ "/",
           "/html/:category?/:topic?" ],
         target:"/ally/rail/:category?/:topic?" } ] },
+  "amazon.com":{ _name:"Amazon",
+    ".":[ { title:"Kindle 软件更新",
+        docs:"https://docs.rsshub.app/program-update.html#amazon",
+        source:[ "/gp/help/customer/display.html" ],
+        target:(_, url) => {
+                    const nodeId = new URL(url).searchParams.get('nodeId');
+                    if (nodeId === 'GKMQC26VQQMM8XSW') {
+                        return '/amazon/kindle/software-updates';
+                    }
+                } } ] },
   "android.com":{ _name:"Android Developers",
     developer:[ { title:"SDK Platform Tools release notes",
         docs:"https://docs.rsshub.app/program-update.html#android-sdk-platform-tools-release-notes",
@@ -2140,6 +2150,20 @@
         docs:"https://docs.rsshub.app/other.html#clickme",
         source:[ "/:grouping/:name" ],
         target:(params) => `/clickme/r18/${params.grouping === 't' ? 'tag' : 'category'}/${params.name}` } ] },
+  "cls.cn":{ _name:"财联社",
+    ".":[ { title:"电报",
+        docs:"https://docs.rsshub.app/finance.html#cai-lian-she",
+        sources:[ "/telegraph",
+          "/" ],
+        target:"/cls/telegraph" },
+      { title:"深度",
+        docs:"https://docs.rsshub.app/finance.html#cai-lian-she",
+        sources:[ "/depth" ],
+        target:(_, url) => `/cls/depth/${new URL(url).searchParams.get('id')}` },
+      { title:"热门文章排行榜",
+        docs:"https://docs.rsshub.app/finance.html#cai-lian-she",
+        sources:[ "/" ],
+        target:"/cls/hot" } ] },
   "cmde.org.cn":{ _name:"国家药品监督管理局医疗器械技术审评中心",
     www:[ { title:"通用",
         docs:"https://docs.rsshub.app/government.html#guo-jia-yao-pin-jian-du-guan-li-ju-yi-liao-qi-xie-ji-shu-shen-ping-zhong-xin",
@@ -7530,11 +7554,48 @@
                         return `/nifd/research/${categoryGuid}`;
                     }
                 } } ] },
-  "nikkei.com":{ _name:"日本経済新聞",
+  "nikkei.com":{ _name:"日本经济新闻",
+    asia:[ { title:"Latest News",
+        docs:"https://docs.rsshub.app/traditional-media.html#ri-ben-jing-ji-xin-wen",
+        source:"/",
+        target:"/nikkei/asia" } ],
+    cn:[ { title:"中文版新闻",
+        docs:"https://docs.rsshub.app/traditional-media.html#ri-ben-jing-ji-xin-wen-zhong-wen-ban-xin-wen",
+        source:[ "/:category/:type",
+          "/:category",
+          "/" ],
+        target:(params) => {
+                    if (params.category && params.type) {
+                        return `/nikkei/cn/cn/${params.category}/${params.type.replace('.html', '')}`;
+                    } else if (params.category && !params.type) {
+                        return `/nikkei/cn/cn/${params.category.replace('.html', '')}`;
+                    } else {
+                        return `/nikkei/cn/cn`;
+                    }
+                } } ],
     www:[ { title:"ホームページ",
         docs:"https://docs.rsshub.app/traditional-media.html#ri-ben-jing-ji-xin-wen",
         source:"/",
-        target:"/nikkei/index" } ] },
+        target:"/nikkei/index" },
+      { title:"新聞",
+        docs:"https://docs.rsshub.app/traditional-media.html#ri-ben-jing-ji-xin-wen",
+        source:[ "/:category/archive",
+          "/:category" ],
+        target:"/nikkei/:category" } ],
+    "zh.cn":[ { title:"中文版新聞",
+        docs:"https://docs.rsshub.app/traditional-media.html#ri-ben-jing-ji-xin-wen-zhong-wen-ban-xin-wen",
+        source:[ "/:category/:type",
+          "/:category",
+          "/" ],
+        target:(params) => {
+                    if (params.category && params.type) {
+                        return `/nikkei/cn/zh/${params.category}/${params.type.replace('.html', '')}`;
+                    } else if (params.category && !params.type) {
+                        return `/nikkei/cn/zh/${params.category.replace('.html', '')}`;
+                    } else {
+                        return `/nikkei/cn/zh`;
+                    }
+                } } ] },
   "nintendo.com":{ _name:"Nintendo",
     ".":[ { title:"直面会",
         docs:"https://docs.rsshub.app/game.html#nintendo",
