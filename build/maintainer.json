@@ -1110,6 +1110,12 @@
     "/cw/today": [
         "TonyRL"
     ],
+    "/cztv/zjxwlb": [
+        "yhkang"
+    ],
+    "/cztv/zjxwlb/daily": [
+        "yhkang"
+    ],
     "/dahecube/:type?": [
         "linbuxiao"
     ],
@@ -3745,6 +3751,9 @@
         "SivaGao",
         "HenryQW"
     ],
+    "/qianp/news/:path*": [
+        "TonyRL"
+    ],
     "/qianzhan/analyst/column/:type?": [
         "moke8"
     ],
@@ -5227,6 +5236,9 @@
     "/yystv/docs": [
         "HaitianLiu"
     ],
+    "/zagg/new-arrivals/:query?": [
+        "NavePnow"
+    ],
     "/zaker/:type/:id?": [
         "LogicJake",
         "kt286",
@@ -5392,6 +5404,9 @@
     ],
     "/zuel/notice": [
         "nczitzk"
+    ],
+    "/zuzhirenshi/:id?": [
+        "5upernova-heng"
     ],
     "/zyshow/:region?/:id": [
         "nczitzk"
